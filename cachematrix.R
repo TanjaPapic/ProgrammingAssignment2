@@ -1,4 +1,4 @@
-## function creates a list of functions 
+## function creates a list of functions to cache the result of inverse matrix calculation
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## cacheSolve function uses the makeCachMatrix list of functions in order to implement inverse matrix calculation with caching
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
